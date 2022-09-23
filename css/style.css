@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+    --red: #fd634e;
+    --green: #a2ca28;
+    --blue: #0c1119;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/headbg.jpg") center/cover;
+    padding: 40px 50px;
+    position: relative;
+}
+
+header nav {
+    text-align: center;
+}
+
+#menu {
+    padding: 20px 0 0 0;
+}
+
+#menu a {
+    font: .8em/1.5 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#topics {
+    position: absolute;
+    bottom: 17vh;
+    left: 7.5%;
+    text-align: right;
+}
+
+h1 {
+
+    font: 2em/1.5 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5 {
+    font: 1em/2 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 60px 0 0;
+}
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.p-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.p-font-gray{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6f787d;
+}
+
+
+.LifeStyle{
+    color: var(--green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.bgred {
+    background: var(--red)
+}
+
+.bggreen {
+    background: var(--green);
+}
+
+.bgwhite {
+    background: #fff;
+}
+
+.txtred {
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txtgreen {
+    color: var(--green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.txtwhite {
+    color: #fff;
+}
+
+.txt-Explore-More{
+    margin-top: 30px;
+}
+
+
+.Shape-Margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Shape-Margin-14{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.Red-Shape-Margin{
+    position: absolute;
+    height: 24px;
+}
+
+.txt-other{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #6f787d;
+}
+
+.txt-Style{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col25 i {
+    font-size: 3em;
+}
+
+.artrow {
+    padding: 90px 0;
+    text-align: justify;
+}
+
+.padding50 {
+    padding: 50px;
+}
+
+
+.Read-More{
+    color: #a2ca28;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.Read-Ps{
+    margin-top: 20px;
+}
+
+
+.SUMMER-OF-FUN{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.Txt-Summer{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.RedTrack{
+    color: var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.GetInvoled{
+    color: var(--green);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Lorem{
+    color: #6f787d;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.WhiteImprove{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.EatingHabits{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.BgBnnerStyle{
+    height: 100vh;
+    background: url("../img/img_banner.png") center/cover;
+    padding: 40px 50px;
+    position: relative;
+}
+
+
+.bgblue {
+    background: var(--blue);
+}
+
+.foreground{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+
+.foreground2{
+    color: #6f787d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Shape-1{
+    border-radius: 6px;
+    background-color: white;
+    width: 201px;
+    height: 49px;
+}
+
+
+.Shape-2{
+    border-radius: 6px;
+    background-color: white;
+    width: 340px;
+    height: 49px;
+}
+
+
+.ButtonStyle{
+
+    border-radius: 6px;
+    background-color: rgb( 162, 292, 40);
+    width: 182px;
+    height: 49px;
+
+}
+
+.lastDiv{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+
+.acenter { text-align: center; }
+.vh50 {height: 50vh;}
+.vh35 {height: 35vh;}
+.vh10 {height: 10vh;}
+
+#lorem{text-align: center;}
+#fitnessfirst {background: url('../img/fitnessfirst.jpg') center/cover;}
+#yourbody {background: url("../img/yourbody.jpg") center/cover;}
+#grape {background: url("../img/Layer 31.png") center/cover;}
+#avokado {background: url("../img/Layer 30.png") center/cover;}
+#lifestyle { background: url("../img/lifestyle.jpg") center/cover;}
+#summeroffun { background: url("../img/summeroffun.jpg") center/cover;}
+@media only screen and (min-width: 768px) {
+    header nav {
+        text-align: inherit;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .row::after {
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+
+    .container {
+        max-width: 1180px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .fleft {
+        float: left;
+    }
+
+    .fright {
+        float: right;
+    }
+
+    .col25 {
+        width: 25%;
+        padding: 0 20px 0 0;
+    }
+
+    .col33 {
+        width: 33.33%;
+    }
+
+
+    .col66 {
+        width: 66.66%;
+    }
+
+  
+}
